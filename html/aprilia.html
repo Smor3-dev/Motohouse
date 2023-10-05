@@ -4,34 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>Moto House</title>
-    <link rel="shortcut  icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="shortcut  icon" href="../img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
     <!--inicio header-->
 
+    <div class="logo">
+        <img src="../img/lmotohouse.png" width="100px" height="100px">
+    </div>
     <header class="header">
         <nav class="info">
-            <div class="logo">
-                <img src="/img/lmotohouse.png">
-             </div>
-            <ul class="info_2">
-                <li><a href="/index.html">Home</a></li>
-            </ul>
+            <div class="barra">
+                <ul class="info_2">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Marcas</a>
+                        <ul>
+                            <li><a href="../html/bmw.html">BMW</a><i></i></li>
+                            <li><a href="../html/ktm.html">KTM</a></li>
+                            <li><a href="../html/kawasaki.html">KAWASAKI</a></li>
+                            <li><a href="../html/yamaha.html">YAMAHA</a></li>
+                            <li><a href="../html/aprilia.html">APRILIA</a></li>
+                        </ul>
+                    <li><a href="#footer">Contacto</a></li>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        
     </header>
 
     <section class="bannerr">
-        <a class="logobmw">
-            <img src="/img/aprilialogo.png" width="600">
-            <div class="deelete">APRILIA</div>
-        </a>
+        <a class="logobmw"><img src="../img/aprilialogo.png" width="300"></a>
+        <div class="aprilia">APRILIA</div>
     </section>
 
     <!--inicio video-->
@@ -39,104 +49,135 @@
     <section class="bmwimg">
             <div class="stock">
                 <video autoplay loop muted plays-inline>
-                    <source src="/img/video/APRILIA/Aprilia RSV4 1100 Factory - official video.mp4" type="video/mp4">
+                    <source src="../img/video/APRILIA/Aprilia RSV4 1100 Factory - official video.mp4" type="video/mp4">
                 </video>
-                    <div class="deelete" id="modelos">MODELOS</div>
+                    <div class="aprilia">MODELOS</div>
             </div>
     </section>
 
     <!--inicio secciones-->
 
-    <section class="clases">
-        
-        <div class="sport">
-            <h2 id="sport">RS</h2>
-        <p id="sport">La emoción de la pista no se puede describir. Pero puedes intentar.</p>
-            <table>
-                <tr>
-                    <th>RSV4</th>
-                    <th>RS 660</th>
-                    <th>RS 125</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/aprilia.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/rs660.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/rs125.jpg"width="267" height="189"></td>  
-                </tr>
-                <tr>
-                    <td>La Superbike definitiva</td>
-                    <td>DISEÑADA PARA EL FUTURO</td>
-                    <td>Tu primera moto deportiva</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="M">
-            <h2 id="sport">TUONO</h2>
-            <p id="sport">Inimitable Tuono.</p>
-            <table>
-                <tr>
-                    <th>Tuono V4</th>
-                    <th>Tuono 660</th>
-                    <th>Tuono 125</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/aprilia/v4.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/t660.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/t125.jpg"width="267" height="189"></td>  
-                </tr>
-                <tr>
-                    <td>Inimitable Tuono.</td>
-                    <td>Potente como un Trueno, ligera como una nube.</td>
-                    <td>Dos ruedas para emociones unicas.</td>
-                </tr>
-            </table>
-
-        </div>
-
-        <div class="adventure">
-            <h2 id="sport">SX</h2>
-            <p id="sport">PÁSATE AL MUNDO MOTARD.</p>
-            <table>
-                <tr>
-                    <th>SX 125</th>
-                    <th>RX 125</th>
-                    <th>Tuareg 660</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/aprilia/sx125.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/rx125.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/Tuareg660.jpg"width="267" height="189"></td>
-                </tr>
-                <tr>
-                    <td>Es una auténtica motocicleta </td>
-                    <td>PARA PILOTOS JÓVENES, DEPORTIVOS Y EXIGENTES.</td>
-                    <td>La mejor tecnología de su categoría.</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="adventure">
-            <h2 id="sport">CITY</h2>
-            <p id="sport">Descubre la comodidad al más alto nivel.</p>
-            <table>
-                <tr>
-                    <th>SR GT</th>
-                    <th>SXR</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/aprilia/sxr50.jpg" width="267" height="189"></td>
-                    <td><img src="/img/aprilia/srgt.jpg" width="267" height="189"></td>    
-                </tr>
-                <tr>
-                    <td>Súbete y conquista la ciudad.</td>
-                    <td>AVENTURA URBANA.</td>
-                </tr>
-            </table>
-
-        </div>
-        
+    <section>
+        <h2 id="APRILIA">RS</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RSV4</h5>
+                  <p class="card-text">Espíritu deportivo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia/rs660.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RS 660</h5>
+                  <p class="card-text">Rompiendo límites.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia/rs125.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RS 125</h5>
+                  <p class="card-text">En busca de tu espíritu deportivo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
+
+    <section>
+        <h2 id="APRILIA">TUONO</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia/V4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">V4</h5>
+                  <p class="card-text">Inimitable Tuono.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia/T660.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">660</h5>
+                  <p class="card-text">Potente como un Trueno, ligera como una nube.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/aprilia/rs125.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">125</h5>
+                  <p class="card-text">Dos ruedas para emociones unicas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <section>
+            <h2 id="APRILIA">SX</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="../img/aprilia/sx125.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SX 125</h5>
+                      <p class="card-text">Es una auténtica motocicleta.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../img/aprilia/rx125.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">RX 125</h5>
+                      <p class="card-text">PARA PILOTOS JÓVENES, DEPORTIVOS Y EXIGENTES.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../img/aprilia/t660g.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TUAREG 660</h5>
+                      <p class="card-text">La mejor tecnología de su categoría.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <h2 id="APRILIA">CITY</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="../img/aprilia/GT.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">R GT</h5>
+                      <p class="card-text">Súbete y conquista la ciudad.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../img/aprilia/SXR.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SXR</h5>
+                      <p class="card-text">AVENTURA URBANA.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
     <!--inicio footer-->
 
@@ -172,4 +213,6 @@
         </div> 
     </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>

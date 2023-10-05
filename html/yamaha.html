@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>Moto House</title>
-    <link rel="shortcut  icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="shortcut  icon" href="../img/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -16,23 +16,32 @@
 
     <!--inicio header-->
 
-    <header class="header">
-        <nav class="info">
-            <div class="logo">
-                <img src="/img/lmotohouse.png">
-             </div>
-            <ul class="info_2">
-                <li><a href="/index.html">Home</a></li>
-            </ul>
-        </nav>
-        
-    </header>
+  <div class="logo">
+    <img src="../img/lmotohouse.png" width="100px" height="100px">
+  </div>
+  <header class="header">
+      <nav class="info">
+          <div class="barra">
+              <ul class="info_2">
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="#">Marcas</a>
+                      <ul>
+                          <li><a href="../html/bmw.html">BMW</a><i></i></li>
+                          <li><a href="../html/ktm.html">KTM</a></li>
+                          <li><a href="../html/kawasaki.html">KAWASAKI</a></li>
+                          <li><a href="../html/yamaha.html">YAMAHA</a></li>
+                          <li><a href="../html/aprilia.html">APRILIA</a></li>
+                      </ul>
+                  <li><a href="#footer">Contacto</a></li>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
 
     <section class="bannerr">
-        <a class="logobmw">
-            <img src="/img/yamahalogo.png" width="1300px" height="800px">
-            <div class="deelete">YAMAHA</div>
-        </a>
+        <a class="logobmw"><img src="../img/yamahalogo.png" height="100"></a>
+        <div class="yamaha">YAMAHA</div>
     </section>
 
     <!--inicio video-->
@@ -40,115 +49,171 @@
     <section class="bmwimg">
             <div class="stock">
                 <video autoplay loop muted plays-inline>
-                    <source src="/img/video/YAMAHA/Ilkay Sencan Dynoro - Rockstar Yamaha R1M 4k.mp4" type="video/mp4">
+                    <source src="../img/video/YAMAHA/Ilkay Sencan Dynoro - Rockstar Yamaha R1M 4k.mp4" type="video/mp4">
                 </video>
-                    <div class="deelete" id="modelos">MODELOS</div>
+                    <div class="yamaha">MODELOS</div>
             </div>
     </section>
 
     <!--inicio secciones-->
 
     <section>
-        
-        <div class="sport">
-            <h2 id="sport">SPORT</h2>
-        <p id="sport">La adrenalina corre por tus venas.</p>
-            <table>
-                <tr>
-                    <th>R1</th>
-                    <th>R6</th>
-                    <th>R3</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/yamaha/R1.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/R6.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/R3.jpg"width="267" height="189"></td>  
-                </tr>
-                <tr>
-                    <td>Espíritu deportivo.</td>
-                    <td>Rompiendo límites.</td>
-                    <td>En busca de tu espíritu deportivo.</td>
-                </tr>
-            </table>
-        </div>
+        <h2 id="YAMAHA">SPORT</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/R1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">R1</h5>
+                  <p class="card-text">Espíritu deportivo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/R6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">R6</h5>
+                  <p class="card-text">Rompiendo límites.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/R3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">R3</h5>
+                  <p class="card-text">En busca de tu espíritu deportivo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
-        <div class="M">
-            <h2 id="sport">NAKED</h2>
-            <p id="sport">Diversión púra.</p>
-            <table>
-                <tr>
-                    <th>MT 09</th>
-                    <th>MT 07</th>
-                    <th>MT 03</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/yamaha/mt09.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/mt07.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/MT03.jpg"width="267" height="189"></td>  
-                </tr>
-                <tr>
-                    <td>Revolución de un ícono.</td>
-                    <td>Descubriendo tu lado oscuro.</td>
-                    <td>El inicio de tu lado oscuro.</td>
-                </tr>
-            </table>
+    <section>
+        <h2 id="YAMAHA">NAKED</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/mt09.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MT 09</h5>
+                  <p class="card-text">Revolución de un ícono.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/mt07.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MT 07</h5>
+                  <p class="card-text">Descubriendo tu lado oscuro.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/MT03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MT 03</h5>
+                  <p class="card-text">El inicio de tu lado oscuro.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
-        </div>
-        <div class="adventure">
-            <h2 id="sport">ADVENTURE</h2>
-            <p id="sport">Una aventura motociclista deja huellas de neumáticos en la arena, polvo en tu moto y recuerdos en tu corazón.</p>
-            <table>
-                <tr>
-                    <th>XT 1200</th>
-                    <th>XT 700</th>
-                    <th>XTZ 250</th>
-                    <th>XTZ 125</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/yamaha/XT1200.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/XT700.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/XTZ250.jpg"width="267" height="189"></td>
-                    <td><img src="/img/yamaha/XTZ125.jpg"width="267" height="189"></td>
-                </tr>
-                <tr>
-                    <td>Desafiá tus límites.</td>
-                    <td>Con un nuevo impulso hacia la aventura.</td>
-                    <td>Hacia el touring adventure.</td>
-                    <td>Practicidad en doble propósito.</td>
-                </tr>
-            </table>
-        </div>
+    <section>
+        <h2 id="YAMAHA">ADVENTURE</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/XT1200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">XT 1200</h5>
+                  <p class="card-text">Desafiá tus límites.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/XT700.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">XT 700</h5>
+                  <p class="card-text">Con un nuevo impulso hacia la aventura.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/XTZ250.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">XTZ 250</h5>
+                  <p class="card-text">Hacia el touring adventure.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="../img/yamaha/XTZ125.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">XTZ 150</h5>
+                    <p class="card-text">Practicidad en doble propósito.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
 
-        <div class="adventure">
-            <h2 id="sport">OFF ROAD</h2>
-            <p id="sport">Solo una moto te da la sensación de verdadera libertad entre el cielo y la carretera.</p>
-            <table>
-                <tr>
-                    <th>YZ 450 F</th>
-                    <th>YZ 250 X</th>
-                    <th>YZ 250 F</th>
-                    <th>YZ 250</th>
-                    <th>YZ 125</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/yamaha/YZ450F.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/YZ250X.jpg" width="267" height="189"></td>
-                    <td><img src="/img/yamaha/YZ250F.jpg"width="267" height="189"></td>
-                    <td><img src="/img/yamaha/YZ250.jpg"width="267" height="189"></td>
-                    <td><img src="/img/yamaha/YZ125.jpg"width="267" height="189"></td>
-                    
-                </tr>
-                <tr>
-                    <td>Rendimiento y confiabilidad.</td>
-                    <td>Ligera y avanzada.</td>
-                    <td>Evolución y potencia.</td>
-                    <td>Motocicleta ganadora.</td>
-                    <td>Legendaria y potente.</td>
-                </tr>
-            </table>
-
-        </div>
-        
+    <section>
+        <h2 id="YAMAHA">OFF-ROAD</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/YZ450F.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">YZ 450 F</h5>
+                  <p class="card-text">Rendimiento y confiabilidad.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/YZ250X.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">YZ 250 X</h5>
+                  <p class="card-text">Ligera y avanzada.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/yamaha/YZ250F.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">YZ 250 F</h5>
+                  <p class="card-text">Evolución y potencia.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="../img/yamaha/YZ250.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">XTZ 250</h5>
+                    <p class="card-text">Motocicleta ganadora.</p>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+                <div class="card">
+                  <img src="../img/yamaha/YZ125.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">XTZ 150</h5>
+                    <p class="card-text">Legendaria y potente.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
     </section>
 
     <!--inicio footer-->
@@ -185,5 +250,6 @@
         </div> 
     </footer>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
