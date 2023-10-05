@@ -23,16 +23,7 @@ div.logo {
 
 nav {
     background-color: rgb(28, 115, 245);
-    height: 65px;
-  }
-
-/* ENCABEZADO BMW */
-.info2 a {
-    position: relative;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-
+    height: 100%;
 }
 
 /* BMW PERO DENTRO DE BMW*/
@@ -178,12 +169,6 @@ section.bmwimg {
     font-size: 1.5rem;
     width: 100%;
     height: auto;
-}
-
-/*CARUSEL IMAGENES TAMANO*/
-section.SPORT div div div img {
-    width: 267px;
-    height: 189px;
 }
 
 /* SECCION DE CONTACTO */
@@ -399,8 +384,10 @@ div.review-1:hover {
     justify-self: center;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
+@media (min-width: 992px) {
+ .navbar-expand-lg .navbar-collapse {
+    display: flex;
     flex-basis: auto;
     justify-content: flex-end;
+    }
 }
