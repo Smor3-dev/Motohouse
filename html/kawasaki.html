@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>Moto House</title>
     <link rel="shortcut  icon" href="/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
     <section class="bannerr">
         <a class="logobmw">
             <img src="/img/kawasakilogo.png">
-            <div class="deelete">KAWASAKI</div>
+            <div class="kawa">KAWASAKI</div>
         </a>
     </section>
 
@@ -41,114 +42,162 @@
                 <video autoplay loop muted plays-inline>
                     <source src="/img/video/KAWASAKI/Top Gun Maverick - Motorcycle Kawasaki Ninja H2.mp4" type="video/mp4">
                 </video>
-                    <div class="deelete" id="modelos">MODELOS</div>
+                    <div class="kawa">MODELOS</div>
             </div>
     </section>
 
     <!--inicio secciones-->
-
-    <section>
-        
-        <div class="sport">
-            <h2 id="sport">NINJA</h2>
-        <p id="sport">La adrenalina corre por tus venas mientras la moto debajo de ti corre por el asfalto negro</p>
-            <table>
-                <tr>
-                    <th>H2 R</th>
-                    <th>ZX 14 R</th>
-                    <th>1000 SX</th>
-                    <th>ZX 6 R</th>
-                    <th>400</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/kawasaki/h2r.png" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/zx14r.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/1000sx.jpg"width="267" height="189"></td>  
-                    <td><img src="/img/kawasaki.png" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/n400.jpg" width="267" height="189"></td>
-                </tr>
-                <tr>
-                    <td>FABRICADA MÁS ALLÁ DE LO CREÍBLE.</td>
-                    <td>LA REINA DEL CUARTO DE MILLA.</td>
-                    <td>LO MEJOR DE DOS MUNDOS.</td>
-                    <td>OBSESIÓN SUPERSPORT.</td>
-                    <td>DIARIA Y ÉPICAMENTE CONDUCCIÓN DEPORTIVA.</td>
-                </tr>
-            </table>
+<section>
+    <h2 id="KAWA">NINJA</h2>
+    <p id="KAWA">La adrenalina corre por tus venas mientras la moto debajo de ti corre por el asfalto negro</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/h2r.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H2 R</h5>
+              <p class="card-text">FABRICADA MÁS ALLÁ DE LO CREÍBLE.</p>
+            </div>
+          </div>
         </div>
-
-        <div class="M">
-            <h2 id="sport">Z</h2>
-            <p id="sport">La version mas radical de la gamma</p>
-            <table>
-                <tr>
-                    <th>Z H2</th>
-                    <th>900 RS</th>
-                    <th>650</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/kawasaki/zh2.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/900rs.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/650.jpg"width="267" height="189"></td>  
-                </tr>
-                <tr>
-                    <td>SUPERCHARGED.</td>
-                    <td>ESPÍRITU VERDADERO.</td>
-                    <td>ENERGÍZATE.</td>
-                </tr>
-            </table>
-
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/zx14r.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ZX 14 R</h5>
+              <p class="card-text">LA REINA DEL CUARTO DE MILLA.</p>
+            </div>
+          </div>
         </div>
-
-        <div class="adventure">
-            <h2 id="sport">VERSYS</h2>
-            <p id="sport">Una aventura motociclista deja huellas de neumáticos en la arena, polvo en tu moto y recuerdos en tu corazón.</p>
-            <table>
-                <tr>
-                    <th>1000 LT</th>
-                    <th>650</th>
-                    <th>X 300</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/kawasaki/v1000.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/v650.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/v300.jpg"width="267" height="189"></td>
-                </tr>
-                <tr>
-                    <td>TOMA CUALQUIER CAMINO, EN CUALQUIER MOMENTO.</td>
-                    <td>CUALQUIER CAMINO, EN CUALQUIER MOMENTO.</td>
-                    <td>TU TICKET PARA LA AVENTURA.</td>
-                </tr>
-            </table>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/1000sx.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1000 SX</h5>
+              <p class="card-text">LO MEJOR DE DOS MUNDOS.</p>
+            </div>
+          </div>
         </div>
-
-        <div class="adventure">
-            <h2 id="sport">VULCAN</h2>
-            <p id="sport">Solo una moto te da la sensación de verdadera libertad entre el cielo y la carretera.</p>
-            <table>
-                <tr>
-                    <th>1700 VOYAGUER</th>
-                    <th>1700 VAQUERO</th>
-                    <th>900</th>
-                    <th>S</th>
-                </tr>
-                <tr>
-                    <td><img src="/img/kawasaki/voyaguer.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/vaquero.jpg" width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/900.jpg"width="267" height="189"></td>
-                    <td><img src="/img/kawasaki/s.jpg"width="267" height="189"></td>
-                </tr>
-                <tr>
-                    <td>ESTILO Y RENDIMIENTO SORPRENDENTES.</td>
-                    <td>DONDE LA POTENCIA Y EL LUJO SON LO MÁXIMO.</td>
-                    <td>TIENE TANTA POTENCIA COMO ACTITUD.</td>
-                    <td>RENDIMIENTO SPORTBIKE AL STILO CRUISER.</td>
-                </tr>
-            </table>
-
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ZX6R</h5>
+              <p class="card-text">	OBSESIÓN SUPERSPORT.</p>
+            </div>
+          </div>
         </div>
-        
-    </section>
+        <div class="col">
+            <div class="card">
+              <img src="../img/kawasaki/n400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">400</h5>
+                <p class="card-text">	DIARIA Y ÉPICAMENTE CONDUCCIÓN DEPORTIVA.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
+
+<section>
+    <h2 id="KAWA">Z</h2>
+    <p id="KAWA">La version mas radical de la gamma</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/zh2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Z H2</h5>
+              <p class="card-text">FABRICADA MÁS ALLÁ DE LO CREÍBLE.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/900rs.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Z 900 RS</h5>
+              <p class="card-text">LA REINA DEL CUARTO DE MILLA.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/650.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Z 650</h5>
+              <p class="card-text">LO MEJOR DE DOS MUNDOS.</p>
+            </div>
+          </div>
+        </div>
+</section>
+
+<section>
+    <h2 id="KAWA">VERSYS</h2>
+    <p id="KAWA">Una aventura motociclista deja huellas de neumáticos en la arena, polvo en tu moto y recuerdos en tu corazón.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/v1000.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1000 LT</h5>
+              <p class="card-text">TOMA CUALQUIER CAMINO, EN CUALQUIER MOMENTO.	</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/v650.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">650</h5>
+              <p class="card-text">CUALQUIER CAMINO, EN CUALQUIER MOMENTO.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/v300.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X 300</h5>
+              <p class="card-text">TU TICKET PARA LA AVENTURA.</p>
+            </div>
+          </div>
+        </div>
+</section>
+
+<section>
+    <h2 id="KAWA">VULCAN</h2>
+    <p id="KAWA">Solo una moto te da la sensación de verdadera libertad entre el cielo y la carretera.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/1700V.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1700 VOYAGUER</h5>
+              <p class="card-text">ESTILO Y RENDIMIENTO SORPRENDENTES.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/kawasaki/v900.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">900</h5>
+              <p class="card-text">TIENE TANTA POTENCIA COMO ACTITUD.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="../img/kawasaki/vS.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">S</h5>
+                <p class="card-text">RENDIMIENTO SPORTBIKE AL STILO CRUISER.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
 
     <!--inicio footer-->
 
@@ -184,4 +233,5 @@
         </div> 
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>

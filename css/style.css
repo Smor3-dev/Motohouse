@@ -21,25 +21,6 @@ div.logo {
     background-color: rgb(28, 115, 245);
 }
 
-@media (min-height: 300px) and (max-width: 450px) {
-    body {
-        width: 100%;
-        height: 100%;
-    }
-
-    header.header {
-        width: auto;
-        height: 100%;
-    }
-
-    .clases {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-}
-
 /* ENCABEZADO */
 header.header {
     display: flex;
@@ -183,6 +164,16 @@ div.deelete {
     font-size: 3rem;
 }
 
+/*seccion*/
+section.SPORT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /* TEXTO DESCRIPTIVO DE MODELO H1 */
 h1#sport{
     color: rgb(28, 115, 245);
@@ -210,46 +201,35 @@ p#sport {
     text-shadow: 2px 2px black;
 }
 
-/* MODELOS DISPONIBLES */
-table {
-    margin-top: 20px;
-    width: 100%;
-}
-
-
-div.slider {
-    aspect-ratio: 16 / 9;
-    width: 300px;
-    position: relative;
+/*KAWASAKI*/
+/* TEXTO DESCRIPTIVO DE MODELO H2 */
+div.kawa {
     display: flex;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-}
-
-div.slider img {
-    width: 100%;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    border-radius: 20%;
-    scroll-snap-align: center;
-}
-
-
-
-/* TABLA PARA DESCRIBIR LOS MODELOS */
-td {
-    border: 1.5px solid;
-    background-color: white;
-    color: rgba(28, 115, 245, 0);
+    justify-content: center;
     text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: rgb(13, 177, 21);
+    text-decoration: none;
+    font-size: 3rem;
 }
 
-/* TEXTO DESCRIPTIVO DE LOS MODELOS */
-tr {
-    color: rgba(0, 0, 0, 0.548);
-    text-shadow: 1px 1px black;
+h2#KAWA {
+    color: rgb(13, 177, 21);
+    font-size: 1.8rem;
+    font-family: "Audiowide", sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
 }
+
+p#KAWA {
+    color: rgb(13, 177, 21);
+    font-size: 1.1rem;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
 
 /* LOGO BMW Y TEXTO BMW */
 section.bmwimg {
@@ -261,6 +241,12 @@ section.bmwimg {
     font-size: 1.5rem;
     width: 100%;
     height: auto;
+}
+
+/*CARUSEL IMAGENES TAMANO*/
+section.SPORT div div div img {
+    width: 267px;
+    height: 189px;
 }
 
 /* SECCION DE CONTACTO */
@@ -339,7 +325,7 @@ i.material-icons {
     color: rgb(28, 115, 245);
 }
 
-/* SECCION FOOTER */
+/* SECCION FOOTER ********************/
 footer {
     box-sizing: border-box;
     display: block;
