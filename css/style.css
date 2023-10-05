@@ -21,19 +21,6 @@ div.logo {
     background-color: rgb(28, 115, 245);
 }
 
-/* ENCABEZADO */
-header.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    background: rgb(28, 115, 245);
-    z-index: 10;
-    gap: 1rem;
-}
-
 nav {
     background-color: rgb(28, 115, 245);
     height: 65px;
@@ -46,91 +33,6 @@ nav {
     color: white;
     text-decoration: none;
 
-}
-
-/* HOME-MODELOS-CONTACTO */
-nav.info {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
-.info a {
-    display: flex;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-    padding: 14px;
-    text-align: center;
-}
-
-div.barra {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-
-/* BARRA CONTENEDORA */
-nav {
-    height: 100%;
-}
-
-nav ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-nav ul li {
-    height: 100%;
-    list-style: none;
-    position: relative;
-    
-}
-
-nav ul li:hover {
-    text-decoration: underline white;
-    transition: all;
-    cursor: pointer;
-}
-
-nav ul li a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-/*MARCAS-B_K_K_Y */
-nav ul li ul {
-    width: 250px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    left: -5px;
-    box-shadow: 0px 0px 10px 0px black;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 10;
-    transition: all 250ms ease;
-    color: black;
-}
-
-nav ul li:hover ul{
-    visibility: visible;
-    opacity: 1;
-    top: 50px;
-    align-items: center;
-    background-color: rgb(0, 81, 255);
-    
-}
-
-nav ul li ul li:hover {
-    background-color: rgba(71, 71, 71, 0.589);
 }
 
 /* BMW PERO DENTRO DE BMW*/
@@ -497,3 +399,8 @@ div.review-1:hover {
     justify-self: center;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
