@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", sans-serif;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+/* LOGO MOTO HOUSE */
+div.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(28, 115, 245);
+}
+
+nav {
+  background-color: rgb(28, 115, 245);
+  height: 100%;
+}
+
+/* LOGO BMW Y TEXTO BMW */
+section.bmwimg {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(28, 115, 245);
+  font-size: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+section.bmwimg div.stock {
+  /* VIDEO DECORATIVO PARA CADA SECCION */
+  /* SECCION DE -MODELOS- */
+}
+section.bmwimg div.stock video {
+  width: 100%;
+}
+section.bmwimg div.stock div.deelete {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(28, 115, 245);
+  font-size: 3rem;
+}
+
+section.muestra {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+section.muestra div {
+  padding: 10px;
+  text-align: center;
+}
+
+section#reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+section#reviews div.reviews-clientes {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#reviews div.reviews-clientes span {
+  font-size: 1rem;
+  color: darkslategrey;
+  margin: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+section#reviews div.reviews-clientes h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: rgb(28, 115, 245);
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+section#reviews div.tarjeta-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+section#reviews div.tarjeta-review div.review-1 {
+  width: 500px;
+  box-shadow: 2px 2px 30px black;
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 .perfil {
+  display: flex;
+  align-items: center;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 .perfil .imagen-perfil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 .perfil .imagen-perfil img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 .perfil div.nombre {
+  display: flex;
+  flex-direction: column;
+}
+section#reviews div.tarjeta-review div.review-1 .caja1 div.estrellitas i {
+  font-size: 1.5rem;
+  color: gold;
+}
+section#reviews div.tarjeta-review div.review-1 div.comentario p {
+  font-size: 1rem;
+  color: grey;
+}
+
+section.bannerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+section.bannerr a {
+  padding: 10px;
+  align-items: center;
+}
+section.bannerr .aprilia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(202, 23, 32);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bannerr .yamaha {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(0, 29, 190);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bannerr .kawa {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(13, 177, 21);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bannerr .ktm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(197, 83, 6);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bannerr .bmw {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(28, 115, 245);
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+h2#APRILIA {
+  color: rgb(202, 23, 32);
+  font-size: 1.8rem;
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+h2#YAMAHA {
+  color: rgb(0, 29, 190);
+  font-size: 1.8rem;
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+h2#KAWA {
+  color: rgb(13, 177, 21);
+  font-size: 1.8rem;
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+h2#KTM {
+  color: rgb(197, 83, 6);
+  font-size: 1.8rem;
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+h2#sport {
+  color: rgb(28, 115, 245);
+  font-size: 1.8rem;
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
+footer {
+  box-sizing: border-box;
+  display: block;
+  color: rgb(28, 115, 245);
+  text-align: center;
+  justify-content: center;
+  /* SECCION DE CONTACTO */
+}
+footer form.contacto {
+  display: grid;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 5rem;
+}
+footer form.contacto h2.P10 {
+  padding: 4px 0;
+  font-family: "Audiowide", sans-serif;
+}
+footer form.contacto p {
+  padding: 10px 0;
+}
+footer form.contacto div.P1 input {
+  width: 100%;
+  height: 50px;
+  margin: 4px 0;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  background-color: white;
+  padding: 0 15px;
+  font-size: 15px;
+}
+footer form.contacto div.P2 textarea {
+  padding: 5px 15px;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 15px;
+  width: 100%;
+  margin: 4px 0;
+}
+footer form.contacto button {
+  margin-top: 5px;
+  border: none;
+  border: 1.5px solid black;
+  background-color: white;
+  padding: 8px 0;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border-radius: 15px;
+}
+footer #pagos {
+  display: grid;
+  padding: 50px;
+  background-color: white;
+}
+footer #pagos h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+footer #pagos img {
+  display: block;
+  justify-self: center;
+}
+footer div.subir {
+  display: grid;
+  position: sticky;
+  right: 500px;
+  top: 0;
+  bottom: 0;
+  justify-content: right;
+  transition: 250ms;
+}
+footer div.subir i.material-icons {
+  font-size: 60px;
+  color: rgb(28, 115, 245);
+}/*# sourceMappingURL=main.css.map */
