@@ -24,7 +24,6 @@ nav {
   height: 100%;
 }
 
-/* LOGO BMW Y TEXTO BMW */
 section.bmwimg {
   display: flex;
   justify-content: center;
@@ -35,10 +34,6 @@ section.bmwimg {
   width: 100%;
   height: auto;
 }
-section.bmwimg div.stock {
-  /* VIDEO DECORATIVO PARA CADA SECCION */
-  /* SECCION DE -MODELOS- */
-}
 section.bmwimg div.stock video {
   width: 100%;
 }
@@ -48,6 +43,51 @@ section.bmwimg div.stock div.deelete {
   text-align: center;
   font-family: "Audiowide", sans-serif;
   color: rgb(28, 115, 245);
+  font-size: 3rem;
+}
+section.bmwimg .aprilia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(202, 23, 32);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bmwimg .yamaha {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(0, 29, 190);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bmwimg .kawa {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(13, 177, 21);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bmwimg .ktm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(197, 83, 6);
+  text-decoration: none;
+  font-size: 3rem;
+}
+section.bmwimg .bmw {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(28, 115, 245);
+  text-decoration: none;
   font-size: 3rem;
 }
 
