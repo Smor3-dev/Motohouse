@@ -8,3 +8,11 @@
 
 @import "./partials/footer";
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+       display: flex;
+       flex-basis: auto;
+       justify-content: flex-end;
+       width: 100%;
+       }
+   }

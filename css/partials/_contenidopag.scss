@@ -14,7 +14,7 @@ section.bmwimg {
         video {
             width: 100%;
         }
-        
+
         div.deelete {
             display: flex;
             justify-content:center;
@@ -294,10 +294,10 @@ h2#sport {
     font-size: 3rem;
 }
 
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-       display: flex;
-       flex-basis: auto;
-       justify-content: flex-end;
-       }
-   }
+section.FILA1 {
+    width: 100%;
+
+    div {
+        width: 100%;
+    }
+}

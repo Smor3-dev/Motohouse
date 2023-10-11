@@ -293,13 +293,13 @@ h2#sport {
   font-size: 3rem;
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    display: flex;
-    flex-basis: auto;
-    justify-content: flex-end;
-  }
+section.FILA1 {
+  width: 100%;
 }
+section.FILA1 div {
+  width: 100%;
+}
+
 footer {
   box-sizing: border-box;
   display: block;
@@ -378,4 +378,13 @@ footer div.subir {
 footer div.subir i.material-icons {
   font-size: 60px;
   color: rgb(28, 115, 245);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
