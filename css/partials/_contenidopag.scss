@@ -241,6 +241,7 @@ section.bannerr {
         color:rgb(28, 115, 245);
         text-decoration: none;
         font-size: 3rem;
+
     }
 }
 
@@ -294,10 +295,40 @@ h2#sport {
     font-size: 3rem;
 }
 
-section.FILA1 {
-    width: 100%;
+section.clientes-review {
+    .row {
+        margin: 0;
 
-    div {
-        width: 100%;
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 5px;
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                padding: 16px;
+                text-align: center;
+                background-color: rgb(28, 115, 245);
+                color: white;
+
+                i {
+                    font-size: 50px;
+                }
+            }
+          }
+        
+        
+    }
+}
+
+section.inventario {
+    .row {
+        margin: 0;
     }
 }

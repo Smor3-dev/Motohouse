@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+       display: flex;
+       flex-basis: auto;
+       justify-content: flex-end;
+       width: 100%;
+       }
+   }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }

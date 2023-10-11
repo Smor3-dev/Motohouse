@@ -79,6 +79,14 @@ footer {
 
     }
 
+    div.ubicacion {
+        display: block;
+
+        iframe {
+            width: 100%;
+        }
+    }
+
     div.subir {
         display: grid;
         position: sticky;
