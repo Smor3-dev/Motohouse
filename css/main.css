@@ -354,6 +354,20 @@ section.inventario2 div.card-body h5 {
   text-align: center;
 }
 
+section.inventario3 {
+  background-color: rgb(28, 115, 245);
+  padding-bottom: 20px;
+}
+section.inventario3 h1#Topventas {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+section.inventario3 .row {
+  margin: 0;
+}
+
 footer {
   box-sizing: border-box;
   display: block;
@@ -424,7 +438,7 @@ footer div.ubicacion {
   display: block;
 }
 footer div.ubicacion iframe {
-  width: 100%;
+  width: 390px;
 }
 footer div.subir {
   display: grid;
