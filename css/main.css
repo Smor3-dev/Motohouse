@@ -336,6 +336,24 @@ section.inventario .row {
   margin: 0;
 }
 
+section.inventario2 h2#Topventas {
+  text-align: center;
+  color: rgb(28, 115, 245);
+}
+section.inventario2 .row {
+  margin: 0;
+}
+section.inventario2 div.card {
+  align-items: center;
+}
+section.inventario2 div.card img {
+  width: 200px;
+  height: 200px;
+}
+section.inventario2 div.card-body h5 {
+  text-align: center;
+}
+
 footer {
   box-sizing: border-box;
   display: block;

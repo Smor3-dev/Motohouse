@@ -328,7 +328,38 @@ section.clientes-review {
 }
 
 section.inventario {
+    
     .row {
         margin: 0;
+    }
+}
+
+
+section.inventario2 {
+
+    h2#Topventas{
+        text-align: center;
+        color: rgb(28, 115, 245);
+    }
+
+    .row {
+        margin: 0;  
+
+    }
+
+    div.card {
+        align-items: center;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    div.card-body {
+        
+        h5 {
+            text-align: center;
+        }
     }
 }
