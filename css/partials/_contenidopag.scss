@@ -254,6 +254,7 @@ h2#APRILIA {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 3rem;
+    border-bottom: 2px solid rgb(202, 23, 32);
 }
 
 h2#YAMAHA {
@@ -264,6 +265,7 @@ h2#YAMAHA {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 3rem;
+    border-bottom: 2px solid rgb(0, 29, 190);
 }
 
 h2#KAWA {
@@ -274,6 +276,7 @@ h2#KAWA {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 3rem;
+    border-bottom: 2px solid rgb(13, 177, 21);
 }
 
 h2#KTM {
@@ -284,6 +287,7 @@ h2#KTM {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 3rem;
+    border-bottom: 2px solid rgb(197, 83, 6);
 }
 
 h2#sport {
@@ -294,6 +298,7 @@ h2#sport {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 3rem;
+    border-bottom: 2px solid rgb(28, 115, 245)
 }
 
 section.clientes-review {
@@ -343,10 +348,12 @@ section.inventario {
 
 
 section.inventario2 {
+    background-color: rgb(28, 115, 245);
 
     h2#Topventas {
         text-align: center;
-        color: rgb(28, 115, 245);
+        color: white;
+        padding-top: 10px;
     }
 
     .row {
