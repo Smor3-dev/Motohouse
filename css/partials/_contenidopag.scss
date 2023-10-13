@@ -1,15 +1,14 @@
-
 section.bmwimg {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     font-family: "Audiowide", sans-serif;
     color: rgb(28, 115, 245);
     font-size: 1.5rem;
     width: 100%;
     height: auto;
-    
-    div.stock{
+
+    div.stock {
 
         video {
             width: 100%;
@@ -17,14 +16,14 @@ section.bmwimg {
 
         div.deelete {
             display: flex;
-            justify-content:center;
+            justify-content: center;
             text-align: center;
             font-family: "Audiowide", sans-serif;
             color: rgb(28, 115, 245);
             font-size: 3rem;
         }
     }
-    
+
     .aprilia {
         display: flex;
         justify-content: center;
@@ -64,12 +63,13 @@ section.bmwimg {
         text-decoration: none;
         font-size: 3rem;
     }
+
     .bmw {
         display: flex;
         justify-content: center;
         text-align: center;
         font-family: "Audiowide", sans-serif;
-        color:rgb(28, 115, 245);
+        color: rgb(28, 115, 245);
         text-decoration: none;
         font-size: 3rem;
     }
@@ -104,21 +104,21 @@ section#reviews {
         justify-content: center;
 
         span {
-        font-size: 1rem;
-        color: darkslategrey;
-        margin: 10px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        text-align: center;
+            font-size: 1rem;
+            color: darkslategrey;
+            margin: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
         }
 
         h1 {
-        font-size: 2rem;
-        font-weight: 500;
-        background-color: rgb(28, 115, 245);
-        color: white;
-        padding: 20px 10px;
-        text-align: center;
+            font-size: 2rem;
+            font-weight: 500;
+            background-color: rgb(28, 115, 245);
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
         }
     }
 
@@ -168,7 +168,7 @@ section#reviews {
                     }
                 }
 
-                div.estrellitas  i {
+                div.estrellitas i {
                     font-size: 1.5rem;
                     color: gold;
                 }
@@ -233,12 +233,13 @@ section.bannerr {
         text-decoration: none;
         font-size: 3rem;
     }
+
     .bmw {
         display: flex;
         justify-content: center;
         text-align: center;
         font-family: "Audiowide", sans-serif;
-        color:rgb(28, 115, 245);
+        color: rgb(28, 115, 245);
         text-decoration: none;
         font-size: 3rem;
 
@@ -321,31 +322,35 @@ section.clientes-review {
                     font-size: 50px;
                 }
             }
-          }
-        
-        
+        }
+
+
     }
 }
 
 section.inventario {
-    
-    .row {
-        margin: 0;
-    }
+    background-color: rgba(107, 107, 107, 0.137);
+    padding-bottom: 15px;
 
-    
+    div.row {
+        margin: 0;
+
+        .card {
+            align-items: center;
+        }
+    }
 }
 
 
 section.inventario2 {
 
-    h2#Topventas{
+    h2#Topventas {
         text-align: center;
         color: rgb(28, 115, 245);
     }
 
     .row {
-        margin: 0;  
+        margin: 0;
 
     }
 
@@ -359,7 +364,7 @@ section.inventario2 {
     }
 
     div.card-body {
-        
+
         h5 {
             text-align: center;
         }
@@ -367,10 +372,10 @@ section.inventario2 {
 }
 
 section.inventario3 {
-    background-color:rgb(28, 115, 245);
+    background-color: rgb(28, 115, 245);
     padding-bottom: 20px;
 
-    h1#Topventas{
+    h1#Topventas {
         padding: 30px;
         text-align: center;
         color: white;

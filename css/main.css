@@ -332,8 +332,15 @@ section.clientes-review .row .column .card i {
   font-size: 50px;
 }
 
-section.inventario .row {
+section.inventario {
+  background-color: rgba(107, 107, 107, 0.137);
+  padding-bottom: 15px;
+}
+section.inventario div.row {
   margin: 0;
+}
+section.inventario div.row .card {
+  align-items: center;
 }
 
 section.inventario2 h2#Topventas {
