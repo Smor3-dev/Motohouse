@@ -330,6 +330,10 @@ section.clientes-review .row .column {
   float: left;
   width: 25%;
   padding: 0 5px;
+  transition: transform 0.5s;
+}
+section.clientes-review .row .column:hover {
+  transform: scale(1.1);
 }
 section.clientes-review .row .column .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -366,6 +370,10 @@ section.inventario2 .row {
 }
 section.inventario2 div.card {
   align-items: center;
+  transition: transform 0.5s;
+}
+section.inventario2 div.card:hover {
+  transform: scale(1.1);
 }
 section.inventario2 div.card img {
   width: 200px;
@@ -473,4 +481,8 @@ footer div.subir {
 footer div.subir i.material-icons {
   font-size: 60px;
   color: rgb(28, 115, 245);
+  transition: transform 0.5s;
+}
+footer div.subir i.material-icons:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=main.css.map */

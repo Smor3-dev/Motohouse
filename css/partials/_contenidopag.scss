@@ -320,6 +320,11 @@ section.clientes-review {
             float: left;
             width: 25%;
             padding: 0 5px;
+            transition: transform .5s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
 
             .card {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -368,6 +373,11 @@ section.inventario2 {
 
     div.card {
         align-items: center;
+        transition: transform .5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
 
         img {
             width: 200px;
