@@ -8,8 +8,8 @@ footer {
     /* SECCION DE CONTACTO */
     form.contacto {
         display: grid;
-        margin-left: 7rem;
-        margin-right: 7rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
         margin-top: 5rem;
 
         h2.P10 {
@@ -99,11 +99,6 @@ footer {
         i.material-icons {
             font-size: 60px;
             color: rgb(28, 115, 245);
-            transition: transform .5s;
-
-            &:hover {
-                transform: scale(1.5);
-            }
         }
     }
     

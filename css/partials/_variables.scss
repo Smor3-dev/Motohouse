@@ -15,3 +15,16 @@
       margin-bottom: 10px;
     }
 }
+
+@mixin marcas($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin titulos($display, $align) {
+  display: $display;
+  align-items: $align;
+}
+
+$colorpagina: rgb(28, 115, 245);

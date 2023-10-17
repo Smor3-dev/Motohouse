@@ -63,7 +63,7 @@ section.bmwimg div.stock div.deelete {
 section.bmwimg .aprilia {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-family: "Audiowide", sans-serif;
   color: rgb(202, 23, 32);
   text-decoration: none;
@@ -72,7 +72,7 @@ section.bmwimg .aprilia {
 section.bmwimg .yamaha {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-family: "Audiowide", sans-serif;
   color: rgb(0, 29, 190);
   text-decoration: none;
@@ -81,7 +81,7 @@ section.bmwimg .yamaha {
 section.bmwimg .kawa {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-family: "Audiowide", sans-serif;
   color: rgb(13, 177, 21);
   text-decoration: none;
@@ -90,7 +90,7 @@ section.bmwimg .kawa {
 section.bmwimg .ktm {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-family: "Audiowide", sans-serif;
   color: rgb(197, 83, 6);
   text-decoration: none;
@@ -119,7 +119,6 @@ section.muestra div {
 
 section#reviews {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -162,6 +161,10 @@ section#reviews div.tarjeta-review div.review-1 {
   padding: 10px;
   margin: 15px;
   cursor: pointer;
+  transition: transform 0.5s;
+}
+section#reviews div.tarjeta-review div.review-1:hover {
+  transform: scale(1.1);
 }
 section#reviews div.tarjeta-review div.review-1 .caja1 {
   display: flex;
@@ -333,7 +336,7 @@ section.clientes-review .row .column {
   transition: transform 0.5s;
 }
 section.clientes-review .row .column:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 section.clientes-review .row .column .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -407,8 +410,8 @@ footer {
 }
 footer form.contacto {
   display: grid;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
   margin-top: 5rem;
 }
 footer form.contacto h2.P10 {
@@ -481,10 +484,6 @@ footer div.subir {
 footer div.subir i.material-icons {
   font-size: 60px;
   color: rgb(28, 115, 245);
-  transition: transform 0.5s;
-}
-footer div.subir i.material-icons:hover {
-  transform: scale(1.5);
 }
 footer .redes-s .icons a {
   background: #ecf0f3;
