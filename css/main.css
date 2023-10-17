@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Audiowide", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   outline: none;
 }
 
@@ -485,4 +485,54 @@ footer div.subir i.material-icons {
 }
 footer div.subir i.material-icons:hover {
   transform: scale(1.5);
+}
+footer .redes-s .icons a {
+  background: #ecf0f3;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+footer .redes-s .icons a:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: #ecf0f3;
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+footer .redes-s .icons a:hover i {
+  transform: scale(0.9);
+}
+footer .redes-s .icons a i {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  line-height: 60px;
+}
+footer .redes-s .fb {
+  color: #4267B2;
+}
+footer .redes-s .twitter {
+  color: #1DA1F2;
+}
+footer .redes-s .insta {
+  color: #E1306C;
+}
+footer .redes-s .git {
+  color: #333;
+}
+footer .redes-s .yt {
+  color: #ff0000;
 }/*# sourceMappingURL=main.css.map */
