@@ -6,7 +6,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 100%;
     display: block;
@@ -402,7 +402,6 @@ section.inventario3 .row {
 
 footer {
   box-sizing: border-box;
-  display: block;
   color: rgb(28, 115, 245);
   text-align: center;
   justify-content: center;
@@ -410,9 +409,12 @@ footer {
 }
 footer form.contacto {
   display: grid;
-  margin-left: 9rem;
-  margin-right: 9rem;
-  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 footer form.contacto h2.P10 {
   padding: 4px 0;
@@ -422,7 +424,7 @@ footer form.contacto p {
   padding: 10px 0;
 }
 footer form.contacto div.P1 input {
-  width: 100%;
+  width: 350px;
   height: 50px;
   margin: 4px 0;
   border: 1.5px solid black;
@@ -437,40 +439,72 @@ footer form.contacto div.P2 textarea {
   border-radius: 15px;
   background-color: white;
   font-size: 15px;
-  width: 100%;
+  width: 350px;
   margin: 4px 0;
 }
-footer form.contacto button {
+footer form.contacto div.button button {
+  display: flex;
   margin-top: 5px;
-  border: none;
   border: 1.5px solid black;
   background-color: white;
   padding: 8px 0;
-  width: 100%;
+  width: 350px;
   font-size: 15px;
   cursor: pointer;
-  border-radius: 8px;
   border-radius: 15px;
+  justify-content: center;
 }
-footer #pagos {
+footer div.infofooter {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+footer div.infofooter div.ubicacion {
+  display: block;
+  padding: 10px;
+}
+footer div.infofooter div.ubicacion iframe {
+  width: 290px;
+}
+footer div.infofooter #pagos {
   display: grid;
-  padding: 50px;
+  padding: 10px;
   background-color: white;
+  border-right: 2px solid rgb(28, 115, 245);
+  border-bottom: 2px solid rgb(28, 115, 245);
 }
-footer #pagos h4 {
+footer div.infofooter #pagos h4 {
   text-align: center;
   font-size: 1.5rem;
   color: black;
 }
-footer #pagos img {
+footer div.infofooter #pagos img {
   display: block;
   justify-self: center;
 }
-footer div.ubicacion {
-  display: block;
+footer div.infofooter .nosotros {
+  border-left: 2px solid rgb(28, 115, 245);
+  border-top: 2px solid rgb(28, 115, 245);
 }
-footer div.ubicacion iframe {
-  width: 390px;
+footer div.infofooter .nosotros .titulo {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px;
+}
+footer div.infofooter .nosotros ul {
+  align-items: flex-start;
+}
+footer div.infofooter .nosotros ul li {
+  border-style: none;
+  transform: transform 0.3s;
+}
+footer div.infofooter .nosotros ul li:hover {
+  transform: scale(1.05);
+}
+footer div.infofooter .nosotros ul li a {
+  text-decoration: none;
 }
 footer div.subir {
   display: grid;
@@ -484,6 +518,9 @@ footer div.subir {
 footer div.subir i.material-icons {
   font-size: 60px;
   color: rgb(28, 115, 245);
+}
+footer .redes-s {
+  padding-bottom: 50px;
 }
 footer .redes-s .icons a {
   background: #ecf0f3;
