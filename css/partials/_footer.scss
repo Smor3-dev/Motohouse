@@ -96,9 +96,18 @@ footer {
                 color: black;
             }
     
-            img {
-                display: block;
-                justify-self: center;
+            .pagos {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+                ul {
+                    align-items: flex-start;
+    
+                    li {
+                        border-style: none;                       
+                    }
+                }
             }
     
         }
@@ -118,7 +127,7 @@ footer {
 
                 li {
                     border-style: none;
-                    transform: transform .3s;
+                    transform: transform 3s;
 
                     &:hover {
                         transform: scale(1.05);

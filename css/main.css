@@ -311,6 +311,16 @@ h2#sport {
   border-bottom: 2px solid rgb(28, 115, 245);
 }
 
+h1#como-comprar {
+  color: rgb(28, 115, 245);
+  font-family: "Audiowide", sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  border-bottom: 2px solid rgb(28, 115, 245);
+}
+
 h6#secundario {
   color: white;
   font-size: 1.5rem;
@@ -400,6 +410,22 @@ section.inventario3 .row {
   margin: 0;
 }
 
+#como-comprar {
+  display: flex;
+}
+
+.como {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(0, 0, 255) 3%, rgb(255, 255, 255) 11%, rgb(255, 255, 255) 83%, rgb(0, 0, 255) 98%, rgb(255, 255, 255) 100%);
+}
+.como .comprar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+}
+
 footer {
   box-sizing: border-box;
   color: rgb(28, 115, 245);
@@ -480,9 +506,16 @@ footer div.infofooter #pagos h4 {
   font-size: 1.5rem;
   color: black;
 }
-footer div.infofooter #pagos img {
-  display: block;
-  justify-self: center;
+footer div.infofooter #pagos .pagos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer div.infofooter #pagos .pagos ul {
+  align-items: flex-start;
+}
+footer div.infofooter #pagos .pagos ul li {
+  border-style: none;
 }
 footer div.infofooter .nosotros {
   border-left: 2px solid rgb(28, 115, 245);
@@ -498,7 +531,7 @@ footer div.infofooter .nosotros ul {
 }
 footer div.infofooter .nosotros ul li {
   border-style: none;
-  transform: transform 0.3s;
+  transform: transform 3s;
 }
 footer div.infofooter .nosotros ul li:hover {
   transform: scale(1.05);
