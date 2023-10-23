@@ -77,6 +77,11 @@ section.muestra {
     div {
         padding: 10px;
         text-align: center;
+        transition: transform .5s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
     }
 }
 

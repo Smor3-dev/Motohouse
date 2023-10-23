@@ -150,6 +150,10 @@ section.muestra {
 section.muestra div {
   padding: 10px;
   text-align: center;
+  transition: transform 0.5s;
+}
+section.muestra div:hover {
+  transform: scale(1.1);
 }
 
 section#reviews {
