@@ -14,6 +14,51 @@
       display: block;
       margin-bottom: 10px;
     }
+
+    section.bannerr {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+  
+      a {
+          padding: 10px;
+          align-items: center;
+  
+          img {
+              width: 100%;
+          }
+      }
+    }
+
+    div#footer {
+      width: 100%;
+
+      div.P1 {
+        width: 100%;
+        
+        input {
+          width: 100%;
+        }
+      }
+
+      div.P2 {
+        width: 100%;
+        
+        textarea {
+          width: 100%;
+        }
+      }
+
+      div.button {
+        width: 100%;
+        
+        button {
+          width: 100%;
+        }
+      }    
+  }
 }
 
 @mixin marcas($display, $justify, $align) {

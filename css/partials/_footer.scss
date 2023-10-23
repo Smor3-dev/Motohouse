@@ -1,6 +1,6 @@
 footer {
     box-sizing: border-box;
-    color: rgb(28, 115, 245);
+    color: $colorpagina;
     text-align: center;
     justify-content: center;
 
@@ -152,7 +152,7 @@ footer {
         
         i.material-icons {
             font-size: 60px;
-            color: rgb(28, 115, 245);
+            color: $colorpagina;
         }
     }
     

@@ -12,6 +12,41 @@
     display: block;
     margin-bottom: 10px;
   }
+  section.bannerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  section.bannerr a {
+    padding: 10px;
+    align-items: center;
+  }
+  section.bannerr a img {
+    width: 100%;
+  }
+  div#footer {
+    width: 100%;
+  }
+  div#footer div.P1 {
+    width: 100%;
+  }
+  div#footer div.P1 input {
+    width: 100%;
+  }
+  div#footer div.P2 {
+    width: 100%;
+  }
+  div#footer div.P2 textarea {
+    width: 100%;
+  }
+  div#footer div.button {
+    width: 100%;
+  }
+  div#footer div.button button {
+    width: 100%;
+  }
 }
 * {
   margin: 0;
