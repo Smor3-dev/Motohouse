@@ -81,6 +81,10 @@ footer {
             iframe {
                 width: 290px;
             }
+
+            h1 {
+                font-size: 2rem;
+            }
         }
 
         #pagos {
@@ -90,10 +94,10 @@ footer {
             border-right: 2px solid $colorpagina;
             border-bottom: 2px solid $colorpagina;
     
-            h4 {
+            h1 {
                 text-align: center;
-                font-size: 1.5rem;
-                color: black;
+                font-size: 2rem;
+                color: $colorpagina;
             }
     
             .pagos {
@@ -120,6 +124,7 @@ footer {
                 display: flex;
                 align-items: flex-start;
                 margin: 5px;
+                font-size: 2rem;
             }
 
             ul {

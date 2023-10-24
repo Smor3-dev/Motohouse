@@ -87,7 +87,7 @@ section.bmwimg {
 section.bmwimg div.stock video {
   width: 100%;
 }
-section.bmwimg div.stock div.deelete {
+section.bmwimg div.stock h1.deelete {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -162,28 +162,13 @@ section#reviews {
   flex-direction: column;
   width: 100%;
 }
-section#reviews div.reviews-clientes {
-  letter-spacing: 1px;
+section#reviews h1.reviews-clientes {
+  letter-spacing: 10px;
   margin: 30px 0px;
   padding: 10px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-section#reviews div.reviews-clientes span {
-  font-size: 1rem;
-  color: darkslategrey;
-  margin: 10px;
-  letter-spacing: 2px;
+  font-size: 2.5rem;
+  color: rgb(28, 115, 245);
   text-transform: uppercase;
-  text-align: center;
-}
-section#reviews div.reviews-clientes h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  background-color: rgb(28, 115, 245);
-  color: white;
-  padding: 20px 10px;
   text-align: center;
 }
 section#reviews div.tarjeta-review {
@@ -305,7 +290,7 @@ h2#APRILIA {
   font-family: "Audiowide", sans-serif;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: 1.5px 1.5px black;
   font-size: 3rem;
   border-bottom: 2px solid rgb(202, 23, 32);
 }
@@ -315,8 +300,8 @@ h2#YAMAHA {
   font-family: "Audiowide", sans-serif;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px black;
-  font-size: 3rem;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 2rem;
   border-bottom: 2px solid rgb(0, 29, 190);
 }
 
@@ -325,8 +310,8 @@ h2#KAWA {
   font-family: "Audiowide", sans-serif;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px black;
-  font-size: 3rem;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 2rem;
   border-bottom: 2px solid rgb(13, 177, 21);
 }
 
@@ -335,8 +320,8 @@ h2#KTM {
   font-family: "Audiowide", sans-serif;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px black;
-  font-size: 3rem;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 2rem;
   border-bottom: 2px solid rgb(197, 83, 6);
 }
 
@@ -345,8 +330,8 @@ h2#sport {
   font-family: "Audiowide", sans-serif;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px black;
-  font-size: 3rem;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 2rem;
   border-bottom: 2px solid rgb(28, 115, 245);
 }
 
@@ -356,11 +341,11 @@ h1#como-comprar {
   padding-top: 50px;
   text-align: center;
   text-shadow: 2px 2px black;
-  font-size: 3rem;
+  font-size: 2rem;
   border-bottom: 2px solid rgb(28, 115, 245);
 }
 
-h6#secundario {
+h2#secundario {
   color: white;
   font-size: 1.5rem;
   font-family: "Audiowide", sans-serif;
@@ -382,10 +367,6 @@ section.clientes-review .row .column {
   float: left;
   width: 25%;
   padding: 0 5px;
-  transition: transform 0.5s;
-}
-section.clientes-review .row .column:hover {
-  transform: scale(1.05);
 }
 section.clientes-review .row .column .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -533,6 +514,9 @@ footer div.infofooter div.ubicacion {
 footer div.infofooter div.ubicacion iframe {
   width: 290px;
 }
+footer div.infofooter div.ubicacion h1 {
+  font-size: 2rem;
+}
 footer div.infofooter #pagos {
   display: grid;
   padding: 10px;
@@ -540,10 +524,10 @@ footer div.infofooter #pagos {
   border-right: 2px solid rgb(28, 115, 245);
   border-bottom: 2px solid rgb(28, 115, 245);
 }
-footer div.infofooter #pagos h4 {
+footer div.infofooter #pagos h1 {
   text-align: center;
-  font-size: 1.5rem;
-  color: black;
+  font-size: 2rem;
+  color: rgb(28, 115, 245);
 }
 footer div.infofooter #pagos .pagos {
   display: flex;
@@ -564,6 +548,7 @@ footer div.infofooter .nosotros .titulo {
   display: flex;
   align-items: flex-start;
   margin: 5px;
+  font-size: 2rem;
 }
 footer div.infofooter .nosotros ul {
   align-items: flex-start;
