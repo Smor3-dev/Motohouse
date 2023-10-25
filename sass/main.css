@@ -151,6 +151,7 @@ section.muestra div {
   padding: 10px;
   text-align: center;
   transition: transform 0.5s;
+  width: 100%;
 }
 section.muestra div:hover {
   transform: scale(1.1);
@@ -353,6 +354,7 @@ h2#secundario {
   text-align: center;
   text-shadow: 2px 2px black;
   border-bottom: 2px solid rgb(28, 115, 245);
+  padding-bottom: 10px;
 }
 
 section.clientes-review .row {
