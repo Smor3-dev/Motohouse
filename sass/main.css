@@ -428,6 +428,24 @@ section.inventario3 h1#Topventas {
   color: white;
   text-shadow: 2px 2px black;
 }
+section.inventario3 .card-group {
+  padding: 65px;
+}
+section.inventario3 .card-group div {
+  align-items: center;
+}
+section.inventario3 .card-group div img {
+  width: 200px;
+  height: 200px;
+}
+section.inventario3 .card-group div .card-body {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
 section.inventario3 .row {
   margin: 0;
 }

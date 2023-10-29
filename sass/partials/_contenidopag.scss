@@ -379,8 +379,9 @@ section.inventario2 {
 
         h5 {
             text-align: center;
-            
         }
+
+        
     }
 }
 
@@ -393,6 +394,28 @@ section.inventario3 {
         text-align: center;
         color: white;
         text-shadow: 2px 2px black;
+    }
+
+    .card-group {
+        padding: 65px;
+        
+        div {
+            align-items: center;
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .card-body {
+                text-align: justify;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: space-between;
+            }
+        }
     }
 
     .row {
