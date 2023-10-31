@@ -73,6 +73,10 @@ footer {
         display: flex;
         justify-content: space-evenly;
         padding-top: 50px;
+
+        p {
+            font-size: 2rem;
+        }
         
         div.ubicacion {
             display: block;
@@ -82,7 +86,7 @@ footer {
                 width: 290px;
             }
 
-            h1 {
+            p {
                 font-size: 2rem;
             }
         }
@@ -225,6 +229,13 @@ footer {
 
         .yt {
             color: #ff0000;
+        }
+    }
+    
+    .telefono {
+
+        p {
+            font-size: 2rem;
         }
     }
 }
