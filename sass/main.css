@@ -565,14 +565,15 @@ footer div.infofooter #pagos h1 {
 }
 footer div.infofooter #pagos .pagos {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
-footer div.infofooter #pagos .pagos ul {
-  align-items: flex-start;
+footer div.infofooter #pagos .pagos ul#uno {
+  display: flex;
 }
-footer div.infofooter #pagos .pagos ul li {
+footer div.infofooter #pagos .pagos ul#uno li {
   border-style: none;
+  padding: 10px;
 }
 footer div.infofooter .nosotros {
   border-left: 2px solid rgb(28, 115, 245);
@@ -663,6 +664,10 @@ footer .redes-s .git {
 footer .redes-s .yt {
   color: #ff0000;
 }
+footer .telefono {
+  background-color: #333;
+  color: #ffffff;
+}
 footer .telefono p {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */

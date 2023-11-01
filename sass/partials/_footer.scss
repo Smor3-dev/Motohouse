@@ -106,14 +106,16 @@ footer {
     
             .pagos {
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 flex-wrap: wrap;
 
-                ul {
-                    align-items: flex-start;
+                ul#uno {
+                    display: flex;
+                    
     
                     li {
-                        border-style: none;                       
+                        border-style: none;
+                        padding: 10px;                       
                     }
                 }
             }
@@ -233,9 +235,11 @@ footer {
     }
     
     .telefono {
+        background-color: #333;
+        color: #ffffff;
 
         p {
-            font-size: 2rem;
+            font-size: 1.2rem;
         }
     }
 }
