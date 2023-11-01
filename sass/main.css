@@ -414,6 +414,9 @@ section.inventario2 h1#Topventas {
 section.inventario2 .row {
   margin: 0;
 }
+section.inventario2 .card-group {
+  padding: 30px;
+}
 section.inventario2 div.card {
   align-items: center;
   transition: transform 0.5s;
@@ -459,6 +462,7 @@ section.inventario3 .card-group div .card-body {
 }
 section.inventario3 .row {
   margin: 0;
+  padding: 30px;
 }
 
 #como-comprar {

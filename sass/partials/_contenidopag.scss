@@ -370,6 +370,10 @@ section.inventario2 {
 
     }
 
+    .card-group {
+        padding: 30px;
+    }
+
     div.card {
         align-items: center;
         transition: transform .5s;
@@ -429,6 +433,7 @@ section.inventario3 {
 
     .row {
         margin: 0;
+        padding: 30px;
     }
 }
 
