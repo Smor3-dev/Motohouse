@@ -22,25 +22,23 @@
       justify-items: center;
       padding: 50px;
 
-    div {
-        padding: 10px;
-        text-align: center;
-        transition: transform .5s;
+      div {
+          padding: 10px;
+          text-align: center;
+          transition: transform .5s;
 
-            &:hover {
-                transform: scale(1.1);
-            }
-            
-            a {
+              &:hover {
+                  transform: scale(1.1);
+              }
+              
+              a {
 
-              img {
-                height: 100px;
-                width: 100px;
-            }
-
-          }
-            
-    }
+                img {
+                  height: 100px;
+                  width: 100px;
+              }
+            }      
+      }
     }
 
     section.bannerr {
