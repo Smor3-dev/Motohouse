@@ -8,11 +8,34 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .column {
       width: 100%;
       display: block;
       margin-bottom: 10px;
+    }
+
+    section.muestra {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+
+      div {
+          padding: 10px;
+          text-align: center;
+          transition: transform .5s;
+          width: 100%;
+
+              &:hover {
+                  transform: scale(1.1);
+              }
+          
+              img {
+                  height: 150px;
+                  width: 150px;
+              }
+      }
     }
 
     section.bannerr {

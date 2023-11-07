@@ -6,11 +6,30 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 10px;
+  }
+  section.muestra {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  section.muestra div {
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.5s;
+    width: 100%;
+  }
+  section.muestra div:hover {
+    transform: scale(1.1);
+  }
+  section.muestra div img {
+    height: 150px;
+    width: 150px;
   }
   section.bannerr {
     display: flex;
@@ -72,6 +91,10 @@ div.logo {
 nav {
   background-color: rgb(28, 115, 245);
   height: 100%;
+}
+nav a img {
+  width: 100px;
+  height: 100px;
 }
 
 section.bmwimg {
@@ -156,6 +179,10 @@ section.muestra div {
 section.muestra div:hover {
   transform: scale(1.1);
 }
+section.muestra div img {
+  height: 150px;
+  width: 150px;
+}
 
 section#reviews {
   display: flex;
@@ -167,7 +194,6 @@ section#reviews h2.reviews-clientes {
   letter-spacing: 10px;
   margin: 30px 0px;
   padding: 10px 20px;
-  font-size: 2.5rem;
   color: rgb(28, 115, 245);
   text-transform: uppercase;
   text-align: center;
@@ -238,7 +264,10 @@ section.bannerr {
 }
 section.bannerr a {
   padding: 10px;
-  align-items: center;
+}
+section.bannerr a img {
+  height: 150px;
+  width: 200px;
 }
 section.bannerr .aprilia {
   display: flex;
@@ -587,7 +616,6 @@ footer div.infofooter .nosotros {
 footer div.infofooter .nosotros .titulo {
   display: flex;
   align-items: flex-start;
-  margin: 5px;
   font-size: 2rem;
 }
 footer div.infofooter .nosotros ul {
@@ -672,6 +700,7 @@ footer .redes-s .yt {
 footer .telefono {
   background-color: #333;
   color: #ffffff;
+  height: 100;
 }
 footer .telefono p {
   font-size: 1.2rem;
