@@ -14,22 +14,22 @@
   }
   section.muestra {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 50% 50%;
     align-items: center;
     justify-items: center;
+    padding: 50px;
   }
   section.muestra div {
     padding: 10px;
     text-align: center;
     transition: transform 0.5s;
-    width: 100%;
   }
   section.muestra div:hover {
     transform: scale(1.1);
   }
-  section.muestra div img {
-    height: 150px;
-    width: 150px;
+  section.muestra div a img {
+    height: 100px;
+    width: 100px;
   }
   section.bannerr {
     display: flex;
