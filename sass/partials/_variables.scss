@@ -30,16 +30,47 @@
               &:hover {
                   transform: scale(1.1);
               }
+
+              img.pr-logo {
+                height: 80px;
+                width: 90px;
+              }
+
+              img.pr2-logo {
+                height: 90px;
+                width: 90px;
+              }
               
               a {
 
-                img {
-                  height: 100px;
-                  width: 100px;
-              }
+                img.ktm-logo {
+                  height: 80px;
+                  width: 90px;
+                }
+  
+                img.bmw-logo {
+                  height: 90px;
+                  width: 90px;
+                }
+      
+                img.kawa-logo {
+                  height: 80px;
+                  width: 90px;
+                }
+      
+                img.yama-logo {
+                  height: 80px;
+                  width: 90px;
+                }
+      
+                img.apr-logo {
+                  height: 80px;
+                  width: 90px;
+                }
             }      
       }
     }
+
 
     section.bannerr {
       display: flex;

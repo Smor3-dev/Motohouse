@@ -9,10 +9,7 @@
     height: auto;
 
     div.stock {
-
-        video {
-            width: 100%;
-        }
+        margin-top: 20px;
 
         h1.deelete {
             display: flex;
@@ -81,10 +78,35 @@ section.muestra {
             &:hover {
                 transform: scale(1.1);
             }
-        
+
             img {
+                height: 110px;
+                width: 200px;
+            }
+        
+            img.ktm-logo {
+                height: 110px;
+                width: 200px;
+            }
+
+            img.bmw-logo {
                 height: 150px;
                 width: 150px;
+            }
+    
+            img.kawa-logo {
+                height: 110px;
+                width: 200px;
+            }
+    
+            img.yama-logo {
+                height: 110px;
+                width: 200px;
+            }
+    
+            img.apr-logo {
+                height: 110px;
+                width: 200px;
             }
     }
 }
@@ -180,6 +202,26 @@ section.bannerr {
 
         img {
             height: 150px;
+            width: 200px;
+        }
+
+        img.bmw-logo {
+            height: 150px;
+            width: 150px;
+        }
+
+        img.kawa-logo {
+            height: 110px;
+            width: 200px;
+        }
+
+        img.yama-logo {
+            height: 110px;
+            width: 200px;
+        }
+
+        img.apr-logo {
+            height: 110px;
             width: 200px;
         }
     }

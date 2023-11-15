@@ -27,9 +27,33 @@
   section.muestra div:hover {
     transform: scale(1.1);
   }
-  section.muestra div a img {
-    height: 100px;
-    width: 100px;
+  section.muestra div img.pr-logo {
+    height: 80px;
+    width: 90px;
+  }
+  section.muestra div img.pr2-logo {
+    height: 90px;
+    width: 90px;
+  }
+  section.muestra div a img.ktm-logo {
+    height: 80px;
+    width: 90px;
+  }
+  section.muestra div a img.bmw-logo {
+    height: 90px;
+    width: 90px;
+  }
+  section.muestra div a img.kawa-logo {
+    height: 80px;
+    width: 90px;
+  }
+  section.muestra div a img.yama-logo {
+    height: 80px;
+    width: 90px;
+  }
+  section.muestra div a img.apr-logo {
+    height: 80px;
+    width: 90px;
   }
   section.bannerr {
     display: flex;
@@ -107,8 +131,8 @@ section.bmwimg {
   width: 100%;
   height: auto;
 }
-section.bmwimg div.stock video {
-  width: 100%;
+section.bmwimg div.stock {
+  margin-top: 20px;
 }
 section.bmwimg div.stock h1.deelete {
   display: flex;
@@ -180,8 +204,28 @@ section.muestra div:hover {
   transform: scale(1.1);
 }
 section.muestra div img {
+  height: 110px;
+  width: 200px;
+}
+section.muestra div img.ktm-logo {
+  height: 110px;
+  width: 200px;
+}
+section.muestra div img.bmw-logo {
   height: 150px;
   width: 150px;
+}
+section.muestra div img.kawa-logo {
+  height: 110px;
+  width: 200px;
+}
+section.muestra div img.yama-logo {
+  height: 110px;
+  width: 200px;
+}
+section.muestra div img.apr-logo {
+  height: 110px;
+  width: 200px;
 }
 
 section#reviews {
@@ -267,6 +311,22 @@ section.bannerr a {
 }
 section.bannerr a img {
   height: 150px;
+  width: 200px;
+}
+section.bannerr a img.bmw-logo {
+  height: 150px;
+  width: 150px;
+}
+section.bannerr a img.kawa-logo {
+  height: 110px;
+  width: 200px;
+}
+section.bannerr a img.yama-logo {
+  height: 110px;
+  width: 200px;
+}
+section.bannerr a img.apr-logo {
+  height: 110px;
   width: 200px;
 }
 section.bannerr .aprilia {
